@@ -1,0 +1,147 @@
+@font-face {
+	font-family: 'SegoeUI-Light';
+	src: url('../polices/SegoeUI-Light.ttf');
+}
+@font-face {
+	font-family: 'SegoeUI-SemiBold';
+	src: url('../polices/SegoeUI-SemiBold.ttf');
+}
+body
+{
+    width: 1920px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/divers/background.png);
+}
+@font-face
+{
+    font-family: semi-bold;
+    src: url("../polices/segoeuisb.ttf")
+}
+header
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 800px;
+    font-family: "segoe ui";
+    background: url(../images/header/header_background.jpg) center top repeat;
+    background-size: cover;
+}
+header nav
+{
+    padding-left: 316px;
+    padding-right: 375px;
+    display: block;
+    background-color: rgba(53, 63, 70, 0.85);
+}
+header nav ul
+{ 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: white;
+    flex: 1;
+    list-style-type: none;
+}
+header nav li
+{
+    font-weight: bold;
+    margin-top: 72px;
+    padding-left: 60px;
+    font-size: 14px;
+}
+header nav li a
+{
+    color: white;
+    text-decoration: none;
+}
+header nav li .bouton
+{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: solid deepskyblue 2px;
+    color: deepskyblue;
+}
+header nav li a:hover
+{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: solid deepskyblue 2px;
+    color: deepskyblue;
+}
+header nav .titre
+{
+    margin-top: 65px;
+    margin-bottom: 65px;
+    flex: 1;
+    font-weight: bold;
+    font-size: 30px;
+}
+#citation_1
+{
+    display: flex;
+    padding-top: 244px;
+    flex-direction: column;
+    align-items: center;
+}
+header p
+{
+    display: inline;
+    margin: 6px;
+    padding: 0;
+    font-size: 42px;
+    text-align: center;
+    font-family: 'SegoeUI-Light'; 
+    color: white;
+    background-color: rgba(53, 63, 70, 0.85);
+}
+span
+{
+    color: deepskyblue;
+}
+#services
+{
+    font-family: "segoe ui";
+    color: white;
+    background-color: rgb(75, 202, 255);
+    padding-top: 80px;
+    padding-left: 344px;
+    padding-right: 375px;
+    padding-bottom: 77px;
+}
+#services h2
+{
+    font-family: "SegoeUI-Light";
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+#services h2 u
+{
+    text-decoration: underline white;
+    margin-left: 31px;
+}
+#services .flexbox_1
+{
+    display: flex;
+}
+#services h3
+{
+    font-family: "SegoeUI-SemiBold";
+    font-size: 24px;
+}
+#services .flexbox_1 p
+{
+    font-family: "SegoeUI-SemiBold";
+    font-size: 12px;
+}
+#services .flexbox_1 div
+{
+    margin-left: 31px;
+}
