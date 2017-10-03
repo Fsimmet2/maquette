@@ -11,6 +11,20 @@ body {
 
 }
 
+@font-face {
+	font-family: 'segoeui';
+	src: url(../polices/segoeui.ttf);
+}
+
+@font-face {
+	font-family: 'segoeui-light';
+	src: url(../polices/SegoeUI-Light.ttf);
+}
+
+h2 {
+	font-family: 'segoeui-light';
+	font-size: 30px;
+}
 /* footer */
 
 footer {
@@ -72,6 +86,7 @@ ul li {
 /*input fullname email */
 
 .txt {
+	font-size: 14px;
 	border: 1px solid white;
 	background-color: transparent;
 	width: 465px;
@@ -116,4 +131,27 @@ label {
 
 .t1 {
 	padding-top: 15px;
+}
+
+/* section test */
+
+.test {
+	background-color: white;
+	padding-left: 375px;
+	padding-right: 375px;
+	font-family: 'segoeui';
+	padding-top: 60px;
+	padding-bottom: 60px;
+	font-size: 24pt;
+	color: #525E68;
+}
+
+cite {
+	font-family: 'segoeuisb';
+	font-style: normal;
+	color: #54BEFF;
+}
+
+aside {
+	float: right;
 }
