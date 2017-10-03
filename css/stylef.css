@@ -1,4 +1,5 @@
 body {
+	width: 1920px;
 	margin: 0;
 	padding: 0;
 	background: url(../images/divers/background.png);
@@ -14,13 +15,15 @@ body {
 
 footer {
 	font-family: 'segoeuisb';
+	font-size: 14pt;
 	background-color: #384049;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
-	padding-right: 375px;
-	padding-left: 375px;
+	padding-right: 365px;
+	padding-left: 365px;
 	color: #525E68;
+	margin: 0;
 }
 
 /* liste sans puce, horizontal */
@@ -29,8 +32,15 @@ ul {
 	display: flex;
 	flex-direction: row;
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
+/* marge haut bas centre footer */
+.copy, ul {
+	margin-bottom: 83px;
+	margin-top: 83px;
+}
 /* espace entre les li */
 
 ul li {
@@ -42,9 +52,27 @@ ul li {
 /* bordure a droite de chaque element de la nav sauf le dernier */
 
 .border {
-
 	border-right: 2px solid #525E68;
 }
 
 /* section contact */
 
+.contact {
+	padding-left: 375px;
+	padding-left: 375px;
+}
+
+.txt {
+	width: 465px;
+	height: 55px;
+}
+
+textarea {
+	height: 216px;
+	width: 1167px;
+}
+
+.bouton {
+	width: 370px;
+	height: 60px;
+}
