@@ -147,12 +147,23 @@ label {
 	color: #525E68;
 }
 
+/* citation */
+
 cite {
 	font-family: 'segoeuisb';
 	font-style: normal;
 	color: #54BEFF;
 }
 
+/* apostrophe */
+
 aside {
 	float: right;
+}
+
+/* section john */
+
+.John {
+	height: 500px;
+	background: url(../images/John_Doe/John_Doe_background.png);
 }
