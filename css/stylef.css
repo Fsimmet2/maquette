@@ -173,5 +173,12 @@ aside {
 
 .fbox {
 	display: flex;
+
+}
+
+/* section twitter */
+
+.twitter_section {
 	
+	background-color: #79CFFF;
 }
