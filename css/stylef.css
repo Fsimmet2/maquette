@@ -101,6 +101,7 @@ textarea {
 	background-color: transparent;
 	height: 216px;
 	width: 1167px;
+	resize: none;
 }
 
 /* bouton envoyer */
