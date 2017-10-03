@@ -58,21 +58,62 @@ ul li {
 /* section contact */
 
 .contact {
+	font-family: 'segoeuisb';
+	color: white;
+	height: 694px;
+	background: url(../images/contact/contact_background.png);
+	background-size: cover;
 	padding-left: 375px;
-	padding-left: 375px;
+	padding-right: 375px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
+
+/*input fullname email */
 
 .txt {
+	border: 1px solid white;
+	background-color: transparent;
 	width: 465px;
 	height: 55px;
+	margin-right: 100px;
 }
 
+/* message */
+
 textarea {
+	border: 1px solid white;
+	background-color: transparent;
 	height: 216px;
 	width: 1167px;
 }
 
-.bouton {
+/* bouton envoyer */
+
+.button {
 	width: 370px;
 	height: 60px;
+	background-color: #54BEFF;
+	border: none;
+	color: white;
+}
+
+/* nom input au dessus */
+
+label {
+	display: flex;
+
+}
+
+/* div en ligne */
+
+.box {
+	display: flex;
+	flex-direction: row;
+}
+
+/* aligner les p avec les input */
+
+.t1 {
+	padding-top: 15px;
 }
