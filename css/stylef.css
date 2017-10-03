@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../images/divers/background.png);
+}
+
+@font-face {
+	font-family: 'segoeuisb';
+	src: url(../polices/seguisb.ttf);
+
+}
+
+/* footer */
+
+footer {
+	font-family: 'segoeuisb';
+	background-color: #384049;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	padding-right: 375px;
+	padding-left: 375px;
+	color: #525E68;
+}
+
+/* liste sans puce, horizontal */
+
+ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+
+/* espace entre les li */
+
+ul li {
+	display: inline;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+/* bordure a droite de chaque element de la nav sauf le dernier */
+
+.border {
+
+	border-right: 2px solid #525E68;
+}
+
+/* section contact */
+
