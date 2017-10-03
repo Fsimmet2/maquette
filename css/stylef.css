@@ -165,5 +165,13 @@ aside {
 
 .John {
 	height: 500px;
-	background: url(../images/John_Doe/John_Doe_background.png);
+	background: url(../images/John_Doe/john.png);
+	padding-left: 375px;
+	padding-right: 375px;
+	color: white;
+}
+
+.fbox {
+	display: flex;
+	
 }
