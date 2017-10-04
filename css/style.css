@@ -388,7 +388,8 @@ footer nav .border {
 /*input fullname email */
 
 .txt {
-	font-size: 14px;
+	font-size: 22px;
+    color: white;
 	border: 1px solid white;
 	background-color: transparent;
 	width: 465px;
@@ -413,6 +414,7 @@ footer nav .border {
 	height: 60px;
 	background-color: #54BEFF;
 	border: none;
+    font-weight: bold;
 	color: white;
 }
 
@@ -568,4 +570,9 @@ h2
 .twitter_section a {
 	color: white;
 	text-decoration: none;
+}
+textarea
+{
+    font-size: 20px;
+    color: white;
 }
