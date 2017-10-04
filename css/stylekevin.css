@@ -89,11 +89,26 @@ header nav .titre
     flex-direction: column;
     align-items: center;
 }
-header p
+header .line_1
 {
     display: inline;
     margin: 6px;
     padding: 0;
+    width: 713px;
+    height: 65px;
+    font-size: 42px;
+    text-align: center;
+    font-family: 'SegoeUI-Light'; 
+    color: white;
+    background-color: rgba(53, 63, 70, 0.85);
+}
+header .line_2
+{
+    display: inline;
+    margin: 6px;
+    padding: 0;
+    width: 989px;
+    height: 65px;
     font-size: 42px;
     text-align: center;
     font-family: 'SegoeUI-Light'; 
@@ -144,4 +159,74 @@ span
 #services .flexbox_1 div
 {
     margin-left: 31px;
+}
+#portfolio
+{
+    padding-top: 80px;
+    padding-left: 343px;
+    padding-right: 375px;
+    padding-bottom: 47px;
+    font-family: "segoe ui";
+    color: #69747b;
+    background-color: white;
+}
+#portfolio .titre
+{
+    font-size: 30px;
+    font-family: "SegoeUI-Light";
+    font-weight: normal;
+    margin: 0;
+    padding-left: 32px;
+}
+#portfolio .titre u
+{
+    text-decoration: underline;
+}
+#portfolio nav a
+{
+    color: #69747b;
+    text-decoration: none;
+}
+#portfolio nav a:hover
+{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: solid deepskyblue 2px;
+    color: deepskyblue;
+}
+#portfolio nav ul
+{ 
+    margin-bottom: 90px;
+    padding: 0;
+    float: right;
+    display: flex;
+    list-style-type: none;
+}
+#portfolio nav li
+{
+    font-weight: bold;
+    padding-left: 60px;
+    font-size: 14px;
+}
+#portfolio nav .all
+{
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: solid deepskyblue 2px;
+    color: deepskyblue;
+}
+#photos
+{
+    display: flex;
+    flex-wrap: wrap;
+    clear: right;
+}
+#photos img
+{
+    padding-left: 30px;
+    padding-bottom: 30px;
 }
