@@ -1,10 +1,11 @@
 @font-face {
-	font-family: 'SegoeUI-Light';
-	src: url('../polices/SegoeUI-Light.ttf');
+	font-family: 'segoeuisb';
+	src: url(../polices/seguisb.ttf);
+
 }
 @font-face {
-	font-family: 'SegoeUI-SemiBold';
-	src: url('../polices/SegoeUI-SemiBold.ttf');
+	font-family: 'segoeui-light';
+	src: url(../polices/SegoeUI-Light.ttf);
 }
 body
 {
@@ -12,11 +13,6 @@ body
     margin: 0;
     padding: 0;
     background-image: url(../images/divers/background.png);
-}
-@font-face
-{
-    font-family: semi-bold;
-    src: url("../polices/segoeuisb.ttf")
 }
 header
 {
@@ -111,11 +107,11 @@ header .line_2
     height: 65px;
     font-size: 42px;
     text-align: center;
-    font-family: 'SegoeUI-Light'; 
+    font-family: 'segoeui-light'; 
     color: white;
     background-color: rgba(53, 63, 70, 0.85);
 }
-span
+.E
 {
     color: deepskyblue;
 }
@@ -131,16 +127,14 @@ span
 }
 #services h2
 {
-    font-family: "SegoeUI-Light";
+    font-family: "segoeui-light";
     font-size: 30px;
     font-weight: normal;
-    margin: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 50px;
     padding: 0;
-}
-#services h2 u
-{
-    text-decoration: underline white;
-    margin-left: 31px;
 }
 #services .flexbox_1
 {
@@ -148,12 +142,14 @@ span
 }
 #services h3
 {
-    font-family: "SegoeUI-SemiBold";
+    font-family: "segoeuisb";
+    margin: 0;
+    padding: 0;
     font-size: 24px;
 }
 #services .flexbox_1 p
 {
-    font-family: "SegoeUI-SemiBold";
+    font-family: "segoeuisb;
     font-size: 12px;
 }
 #services .flexbox_1 div
@@ -170,17 +166,13 @@ span
     color: #69747b;
     background-color: white;
 }
-#portfolio .titre
+#portfolio .ti
 {
     font-size: 30px;
-    font-family: "SegoeUI-Light";
+    font-family: "segoeui-light";
     font-weight: normal;
     margin: 0;
-    padding-left: 32px;
-}
-#portfolio .titre u
-{
-    text-decoration: underline;
+    padding: 0;
 }
 #portfolio nav a
 {
@@ -229,4 +221,282 @@ span
 {
     padding-left: 30px;
     padding-bottom: 30px;
+}
+#default_section
+{
+    padding-left: 343px;
+    padding-right: 375px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    color: white;
+    font-family: "segoe ui";
+}
+#default_section h2
+{
+    font-family: "segoeui-light";
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+#default_contenu
+{
+    width: 462px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-right: 150px;
+}
+#default_contenu p
+{
+    font-size: 14px;
+}
+#default_contenu button
+{
+    width: 188px;
+    font-weight: bold;
+}
+#default_contenu img
+{
+    float: right;
+}
+.contact h2, .test h2, .John  h2, .twitter_section h2 {
+	font-family: 'segoeui-light';
+	font-size: 30px;
+}
+/* footer */
+
+footer {
+	font-family: 'segoeuisb';
+	font-size: 14pt;
+	background-color: #384049;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	padding-right: 365px;
+	padding-left: 365px;
+	color: #525E68;
+	margin: 0;
+}
+
+/* liste sans puce, horizontal */
+
+footer > ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* marge haut bas centre footer */
+.copy, footer ul {
+	margin-bottom: 83px;
+	margin-top: 83px;
+}
+/* espace entre les li */
+
+footer ul li {
+	display: inline;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+/* bordure a droite de chaque element de la nav sauf le dernier */
+
+footer nav .border {
+	border-right: 2px solid #525E68;
+}
+
+/* section contact */
+
+.contact {
+	color: white;
+	height: 694px;
+	background: url(../images/contact/contact_background.png);
+	background-size: cover;
+	padding-left: 375px;
+	padding-right: 375px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+/*input fullname email */
+
+.txt {
+	font-size: 14px;
+	border: 1px solid white;
+	background-color: transparent;
+	width: 465px;
+	height: 55px;
+	margin-right: 100px;
+}
+
+/* message */
+
+.contact textarea {
+	border: 1px solid white;
+	background-color: transparent;
+	height: 216px;
+	width: 1167px;
+	resize: none;
+}
+
+/* bouton envoyer */
+
+.button {
+	width: 370px;
+	height: 60px;
+	background-color: #54BEFF;
+	border: none;
+	color: white;
+}
+
+/* nom input au dessus */
+
+.contact label {
+    font-family: "segoe ui";
+    font-weight: bold;
+	display: flex;
+
+}
+
+/* div en ligne */
+
+.box {
+	display: flex;
+	flex-direction: row;
+}
+
+/* aligner les p avec les input */
+
+.t1 {
+	padding-top: 15px;
+}
+
+/* section test */
+
+.test {
+	background-color: white;
+	padding-left: 375px;
+	padding-right: 375px;
+	font-family: 'segoeui-light';
+	padding-top: 60px;
+	padding-bottom: 60px;
+	font-size: 28px;
+	color: #525E68;
+}
+
+/* citation */
+
+.test cite {
+	font-family: 'segoe ui';
+    font-weight: bold;
+	font-style: normal;
+    font-size: 14px;
+	color: #54BEFF;
+}
+
+/* border sous les titres */
+
+.sous_grey
+{
+    border-bottom: 2px solid #525E68;
+    padding-bottom: 2px;
+}
+.sous_blanc
+{
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+}
+
+/* apostrophe */
+
+aside {
+	float: right;
+}
+
+/* --------------- section john --------------- */
+
+.John {
+	
+	background: url(../images/John_Doe/john.png);
+	padding-left: 375px;
+	padding-right: 375px;
+	color: white;
+	font-family: 'segoe ui';
+	font-size: 14px;
+	padding-top: 100px;
+}
+
+.flex {
+	display: flex;
+	padding-bottom: 102px;
+	}
+
+.flex p {
+	margin-right: 50px;
+	margin-bottom: 35px;
+
+}
+.fbox i
+{
+    font-size: 30px;
+    border: solid white 2px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 14px;
+    padding-left: 14px;
+    margin-right: 18px;
+}
+.fbox a
+{
+    color: white;
+    text-decoration: none;
+}
+#twitter:hover
+{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#google:hover
+{
+    background-color: #C61E00;
+    cursor: pointer;
+}
+#dribble:hover
+{
+    background-color: #F10080;
+    cursor:pointer;
+}
+#cafe:hover
+{
+    background-color: #523A21;
+    cursor: pointer;
+}
+h2
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------- section twitter --------------- */
+
+.twitter_section {
+
+	color: white;
+	font-family: 'seguisb';
+	font-size: 28px;
+	height: 140px;
+	background-color: #79CFFF;
+	padding-left: 375px;
+	padding-right: 375px;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+
+.twitter_section a {
+	color: white;
+	text-decoration: none;
 }
