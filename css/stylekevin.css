@@ -21,7 +21,7 @@ header
     flex-direction: column;
     height: 800px;
     font-family: "segoe ui";
-    background: url(../images/header/header_background.jpg) center top repeat;
+    background: url(../images/header/header_background_2.jpg) center 0 no-repeat fixed;
     background-size: cover;
 }
 header nav
@@ -149,7 +149,7 @@ header .line_2
 }
 #services .flexbox_1 p
 {
-    font-family: "segoeuisb;
+    font-family: "segoeuisb";
     font-size: 12px;
 }
 #services .flexbox_1 div
